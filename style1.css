@@ -13,11 +13,8 @@ header {
 main {
   width: 960px;
   margin: 50px auto;
-}
 
-.main-content {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .content {
@@ -25,60 +22,46 @@ main {
   margin-right: 30px;
   background-color: #eeeeee;
   position: relative;
-}
-
-.box {
-  position: absolute;
-  top: 10px;
+  padding: 10px;
 }
 
 .content:last-child {
   margin-right: 0;
 }
 
-.step {
-  background-color: #ff9a4b;
-  color: #fff
-}
-
-
-
 .content-image1 {
-  width: 280px;
   height: 150px;
   background-image: url(img/flow01.png);
   background-size: cover;
-  background-position: center;
-  margin-left: 10px;
+  background-position: bottom;
 }
 
 .content-image2 {
-  width: 280px;
   height: 150px;
   background-image: url(img/flow02.png);
   background-size: cover;
-  background-position: center;
-  margin-left: 10px;
+  background-position: bottom;
 }
 
 .content-image3 {
-  width: 280px;
   height: 150px;
   background-image: url(img/flow03.png);
   background-size: cover;
-  background-position: center;
-  margin-left: 10px;
+  background-position: bottom;
+
 }
 
 .content-heading {
-  margin-top: 15px ;
-  margin-bottom: 5px;
-  margin-left: 10px;
+  margin: 15px 0 5px;
 }
 
-.content-text {
-  font-size: 12px;
-  margin: 0 10px 10px;
+.step {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ff9a4b;
+  color: #fff
+
 }
 
 footer {
