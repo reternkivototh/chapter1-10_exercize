@@ -77,11 +77,16 @@ footer {
   }
 
   .content {
-    margin-right: 0;
-    margin-bottom: 20px;
+    width: 90%;
+    margin: 20px auto;
   }
 
+  .content:first-child,
+  .content:nth-child(2) {
+    margin-top: 0;
+  }
+  
   .content:last-child {
-    margin-bottom: 0;
+    margin: 0 auto;
   }
 }
